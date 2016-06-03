@@ -13,7 +13,7 @@ On command line you can use fat jar which includes all required dependencies:
 If you would like to it use with detached jar dependencies: 
 
 ```
-   java -cp asm-all-5.1.jar:commons-io-2.4.jar -jar class-body-stripper-<version>.jar
+   java -cp asm-5.1.jar:commons-io-2.4.jar -jar class-body-stripper-<version>.jar
 ```
 
 
