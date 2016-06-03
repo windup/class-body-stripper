@@ -7,6 +7,29 @@
     <artifactId>class-body-stripper</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
+   <licenses>
+      <license>
+         <name>Eclipse Public License version 1.0</name>
+         <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      </license>
+   </licenses>
+
+    <scm>
+        <tag>HEAD</tag>
+        <connection>scm:git:https://github.com/windup/class-body-stripper.git</connection>
+        <developerConnection>scm:git:git@github.com:windup/class-body-stripper.git</developerConnection>
+        <url>http://github.com/windup/class-body-stripper</url>
+    </scm>
+    
+    
+   <prerequisites>
+      <maven>3.0</maven>
+   </prerequisites>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+    </properties>
 
     <dependencies>
         <dependency>
