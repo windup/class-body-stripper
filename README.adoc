@@ -1,0 +1,19 @@
+== Class Body Striper
+
+Class Body stripper is a tool for stripping method bodies from classes in jar archive to reduce the size of the jar and keep the class bytecode to be resolvable by jave compiler.
+
+=== Usage
+
+On command line you can use fat jar which includes all required dependencies:
+
+```
+   java -jar class-body-stripper-<version>-jar-with-dependencies.jar <input.jar> <output.jar>
+```
+
+If you would like to it use with detached jar dependencies: 
+
+```
+   java -cp asm-5.1.jar:commons-io-2.4.jar -jar class-body-stripper-<version>.jar
+```
+
+
